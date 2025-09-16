@@ -1,5 +1,3 @@
-# Assignment 1: Design Your Own Class! 🏗️
-# We'll design a Smartphone class
 
 class Smartphone:
     def __init__(self, brand, model, storage, battery_life):
@@ -28,7 +26,6 @@ class GamingSmartphone(Smartphone):
         print(f"{self.brand} {self.model} is playing {game} 🎮 with {self.cooling_system} cooling system!")
 
 
-# Assignment 2: Polymorphism Challenge 🎭
 class Vehicle:
     def move(self):
         print("The vehicle is moving...")
@@ -63,3 +60,4 @@ if __name__ == "__main__":
 
     for v in vehicles:
         v.move()
+
